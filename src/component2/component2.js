@@ -14,7 +14,7 @@ function component2() {
     element.appendChild(button);
 
     //异步加载模块
-    button.onclick = e => import(/* webpackChunkName: "print" */ './print').then(module => {
+    button.onclick = () => import(/* webpackChunkName: "print" */ './print').then(module => {
         const print = module.default;
 
         print();
