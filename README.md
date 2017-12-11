@@ -9,7 +9,7 @@
 
 * 强烈推荐 **WebStorm**
 	* 如果使用 WebStorm , .editorconfig 将自动与其关联，然后只需打开 Setting =>
-Languages & Frameworks => JavaScript => Code Quality Tools => ESLint ,将 Enable 选中, .eslintrc.js 即可正常使用
+Languages & Frameworks => JavaScript => Code Quality Tools => ESLint ,将 Enable 选中, .eslintrc.js 即可与 WebStorm 正常关联
 
 * 如果是其他编辑器
 	1. 为使 ```.editorconfig``` 正常使用，请 [点击链接](http://editorconfig.org/#download) 查看本编辑器是否需要下载插件，如需下载，请按要求安装
@@ -33,4 +33,10 @@ yarn start
 
 ```sh
 yarn build
+```
+
+* 代码检查
+
+```sh
+yarn lint
 ```
