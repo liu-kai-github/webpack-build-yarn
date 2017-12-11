@@ -8,7 +8,6 @@ module.exports = {
     'extends': 'eslint:recommended',
     'parserOptions': {
         'sourceType': 'module',
-        ecmaVersion: 8,
     },
     'rules': {
         'eqeqeq': 'off',
@@ -22,5 +21,5 @@ module.exports = {
         'no-console': 'warn',
         'no-alert': 'error',
         'no-else-return': 'error',
-    }
+    },
 };

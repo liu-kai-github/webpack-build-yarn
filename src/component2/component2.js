@@ -16,7 +16,6 @@ function component2() {
     //异步加载模块
     button.onclick = () => import(/* webpackChunkName: "print" */ './print').then(module => {
         const print = module.default;
-
         print();
     });
 
