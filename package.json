@@ -1,0 +1,8 @@
+{
+  "name": "webpack-build-yarn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:liu-kai-github/webpack-build-yarn.git",
+  "author": "liu-kai-github <31062816+liu-kai-github@users.noreply.github.com>",
+  "license": "MLT"
+}
