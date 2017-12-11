@@ -17,7 +17,7 @@ Languages & Frameworks => JavaScript => Code Quality Tools => ESLint ,将 Enable
 
 ### 启动项目
 
-* 进入项目跟目录，安装项目依赖
+* 进入项目根目录，安装项目依赖
 
 ```sh
 yarn
