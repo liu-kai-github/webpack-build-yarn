@@ -10,7 +10,7 @@ module.exports = {
         'sourceType': 'module',
     },
     'rules': {
-        'eqeqeq': 'off',
+        'eqeqeq': ['error', 'always'],
         'curly': 'error',
         'quotes': ['error', 'single'],
         'indent': ['error', 4],
@@ -21,5 +21,9 @@ module.exports = {
         'no-console': 'warn',
         'no-alert': 'error',
         'no-else-return': 'error',
+        'comment-format': [true, 'check-space'],
+        'for-direction': 'error',
+        'no-multiple-empty-lines': 'error',
+        'no-duplicate-imports': 'error',
     },
 };
