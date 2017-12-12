@@ -12,4 +12,5 @@ function component1() {
     return element;
 }
 
+
 export default component1;
