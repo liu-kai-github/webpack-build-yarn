@@ -1,6 +1,6 @@
 module.exports = {
     entry: {
-        app: './src/index.js',
+        main: './src/main.js',
     },
     plugins: [],
 };
