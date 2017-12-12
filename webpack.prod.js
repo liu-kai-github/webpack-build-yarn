@@ -76,9 +76,9 @@ module.exports = merge(common, {
             allChunks: true
         }),
         new HtmlWebpackPlugin({
-            template: './public/index.html',
+            template: './src/index.html',
             title: 'Production',
-            favicon: './public/favicon.png',
+            favicon: './src/favicon.png',
             minify: {
                 collapseBooleanAttributes: true,
                 collapseInlineTagWhitespace: true,
