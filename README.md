@@ -2,8 +2,8 @@
 
 ### 安装环境
 
-* node.js ```~8.0.0``` [https://nodejs.org](https://nodejs.org)
-* yarn ```~1.0.0```  [https://yarnpkg.com](https://yarnpkg.com)
+* node.js ```^8.0.0``` [https://nodejs.org](https://nodejs.org)
+* yarn ```^1.0.0```  [https://yarnpkg.com](https://yarnpkg.com)
 
 ### 编辑器
 

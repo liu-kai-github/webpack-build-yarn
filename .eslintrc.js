@@ -25,5 +25,8 @@ module.exports = {
         'for-direction': 'error',
         'no-multiple-empty-lines': 'error',
         'no-duplicate-imports': 'error',
+        'block-spacing': ['error', 'never'],
+        'jsx-quotes': ['error', 'prefer-double'],
+        'no-multi-spaces': 'error',
     },
 };
